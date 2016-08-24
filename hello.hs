@@ -4,4 +4,4 @@ import System.Environment
 main :: IO ()
 main = do
   args <- getArgs
-  putStrLn ("Hello, " ++ args !! 0)
+  putStrLn ("Arg1: " ++ args !! 0 ++ ", Arg2: " ++ args !! 1)
